@@ -1,0 +1,149 @@
+body{
+   
+     background-color:#2f3835; 
+    /* background-image: url("./images/li4.jpg"); */
+    /* background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+body.c{
+ background-image: url("./images/li4.jpg");
+ background-position: center  ; 
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+     
+}
+
+.container{
+    margin-left: auto;
+    margin-right:auto;
+    width:1024px;
+    
+}
+
+header{
+height: 100px;
+text-align: center;
+
+}
+ nav{
+    background-color:rgba(0, 0, 0, 0.338);
+    height:48px;
+    width:1024px;
+    text-align:center;
+    /* padding-top:14px; */
+    padding-bottom: 14px;
+
+} 
+#section1{
+
+    height: 400px;
+    width:1024px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 80px;
+
+}
+footer{
+  background-color:yellowgreen; 
+    background-color:rgba(0, 0, 0, 0.338);
+    text-align:center;
+    height:25px;
+    width:1024px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  
+  
+}
+h1{
+    font-size: 80px;
+    color:black;
+    font-style: italic;
+    
+    }
+
+    .button{
+        background-color:yellowgreen;
+        text-decoration: none;
+        padding: 15px 32px;
+        font-size: 20px;
+        margin-left: 360px;
+        
+    }
+    
+    a{
+        color:#E90303;
+        font-size: 16px;
+    }
+    nav a{
+        /* text-decoration: none; */
+        /* font-size: 20px; */
+      /* padding-left: 10px;
+        padding-right: 10px;  */
+    }
+    #icn{
+        font-size:30px; 
+        color:white;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;   
+    }
+    ul{
+        margin:0px;
+        padding:0px;
+        list-style:none;
+        font-size:20px;
+        padding-left: 35%;
+      }
+      ul li{
+        margin:0px;
+        padding:0px;  
+        float:left;
+        width:140px;
+        height:60px;
+        font-size: 20px;
+        line-height: 60px;
+        /* background-color:black ; */
+    }
+    ul li a{
+        margin:0px;
+        padding:0px; 
+        text-decoration: none;
+        display: block;   
+        color:#E90303;
+        font-size: 105%;
+    
+    }
+    ul li a:hover{
+        margin:0px;
+        padding:0px; 
+        background-color:rgba(255, 255, 255, 0.788);
+        transition:1s all ease;
+    }
+    ul li ul li{
+        margin:0px;
+        padding:0px; 
+        display: none;
+        background-color:yellowgreen;
+        height: 60px;
+    }
+    ul li:hover ul li{
+        margin:0px;
+        padding:0px; 
+        display: block;
+    }
+    .container1{
+        margin-left: auto;
+        margin-right:auto;
+        width:1024px;
+    }
+    #txt{
+        
+        padding-left: 500px;
+        padding-top: 40px;
+    
+    }
+********************Aboutme******************
