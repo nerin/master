@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>animation</title>
+<style>
+.slideshow{
+margin:0 auto;
+padding-top:50px;
+height: 700px;
+background:#EB9B87;
+box-sizing:border-box;
+}
+.content{
+margin:auto;
+width:190px;
+perspective:1000px;
+position:relative;
+padding-top:80px;
+}
+.content-carrousel{
+width:100%;
+position:absolute;
+float:right;
+animation:rotar 15s infinite linear;
+transform-style: preserve-3d;
+}
+.content-carrousel:hover{
+animation-play-state:paused;
+cursor:pointer;
+
+}
+.content-carrousel figure{
+
+    width:100%;
+    height: 120px;
+    border:1px solid #4d444d;
+    overflow:hidden;
+    position: absolute;
+}
+.content-carrousel figure:nth-child(1)
+{
+transform: rotateY(0deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(2)
+{
+transform: rotateY(40deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(3)
+{
+transform: rotateY(80deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(4)
+{
+transform: rotateY(120deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(5)
+{
+transform: rotateY(160deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(6)
+{
+transform: rotateY(200deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(7)
+{
+transform: rotateY(240deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(8)
+{
+transform: rotateY(280deg)translateZ(300px);
+}
+.content-carrousel figure:nth-child(9)
+{
+transform: rotateY(320deg)translateZ(300px);
+}
+.shadow{
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 2px;
+
+
+}
+.content-carrousel img{
+
+    image-rendering:  auto; 
+    transition:all 300ms;
+    width:100%;
+    height: 100%;
+    
+}
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition:all 300ms;
+    /* transition: transform 0.8s;
+  transform-style: preserve-3d; */
+}
+@keyframes rotar{
+    from{
+        transform:rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+    }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #88BA00;
+}
+.shadow:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+  
+ 
+
+</style>
+</head>
+<body>
+<section class="slideshow">
+
+<div class="content">
+<div class="content-carrousel">
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+
+</figure>
+<figure class="shadow"><img src="./images/pani3.jpg">
+    <div class="overlay">
+            <div class="text">Hello World</div>
+          </div>
+
+</figure>
+</div>
+
+        
+    </div>
+</section>
+    
+</body>
+</html>
