@@ -2,7 +2,7 @@
 body{
     
       background-color:yellowgreen; 
-     background-image: url("./images/e.jpg");
+     background-image: url("./images/g.jpeg");
      background-position: center; 
      background-repeat: no-repeat;
      background-size: cover;
@@ -79,12 +79,7 @@ body{
          color:#E90303;
          font-size: 16px;
      }
-     nav a{
-         /* text-decoration: none; */
-         /* font-size: 20px; */
-       /* padding-left: 10px;
-         padding-right: 10px;  */
-     }
+     
      #icn{
          font-size:30px; 
          color:white;
@@ -153,7 +148,8 @@ body{
         width:190px;
         perspective:1000px;
         position:relative;
-        padding-top:80px;
+        padding-top:90px;
+        padding-left: 20px;
         }
         .content-carrousel{
         width:100%;
