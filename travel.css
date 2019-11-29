@@ -1,10 +1,10 @@
 body{
     
       background-color:#2f3835; 
-     /* background-image: url("./images/li4.jpg"); */
-     /* background-position: center; 
+     background-image: url("./images/p.jpg");
+     background-position: center; 
      background-repeat: no-repeat;
-     background-size: cover; */
+     background-size: cover;
      
  }
  
@@ -32,12 +32,12 @@ body{
  } 
  #section1{
  
-     height: 800px;
+     height: 1200px;
      width:1024px;
      text-align: center;
      padding-left: 20px;
      padding-right:20px;
-     padding-top: 80px;
+     padding-top: 50px;
  
  }
  footer{
@@ -52,10 +52,15 @@ body{
    
  }
  h1{
-     font-size: 80px;
+     font-size:30px;
      color:black;
      font-style: italic;
      
+     }
+     p{
+         font-size: 17px;
+         color:black;
+         font-weight: bolder
      }
  
      .button{
@@ -71,12 +76,7 @@ body{
          color:#E90303;
          font-size: 16px;
      }
-     nav a{
-         /* text-decoration: none; */
-         /* font-size: 20px; */
-       /* padding-left: 10px;
-         padding-right: 10px;  */
-     }
+    
      #icn{
          font-size:30px; 
          color:white;
@@ -133,11 +133,4 @@ body{
          margin-right:auto;
          width:1024px;
      }
-     #txt{
-         
-         padding-left: 500px;
-         padding-top: 40px;
      
-     }
- 
- 
