@@ -1,0 +1,526 @@
+body{
+    
+    background-color:#2f3835; 
+   background-image: url("./images/t8.jpg");
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align:center;
+   
+}
+/* body.c{
+ background-image: url("./images/b2.jpeg"); 
+background-position: center ; 
+background-repeat: no-repeat;
+background-size: cover;
+height:160vh;
+display: flex; 
+
+} */
+
+.box{
+   margin-left: auto;
+   margin-right:auto;
+   width:1024px;
+}
+
+header{
+height: 100px;
+text-align: center;
+
+}
+nav{
+   background-color:rgba(0, 0, 0, 0.338);
+   height:48px;
+   width:1024px;
+   text-align:center;
+   /* padding-top:14px; */
+   padding-bottom: 14px;
+
+} 
+#section1{
+
+   height: 600px;
+   width:1024px;
+   /* text-align: center; */
+   padding-left:90px;
+   padding-right:90px;
+   padding-top: 10px;
+   padding-bottom: 80px;
+
+}
+footer{
+ background-color:yellowgreen; 
+   background-color:rgba(0, 0, 0, 0.338);
+   text-align:center;
+   height:25px;
+   width:1024px;
+   padding-top: 30px;
+   padding-bottom: 15px;
+   margin-top: 220px;
+ 
+ 
+} 
+h1{
+   font-size: 80px;
+   color:black;
+   font-style: italic;
+   
+   }
+
+   .button{
+       background-color:yellowgreen;
+       text-decoration: none;
+       padding: 15px 32px;
+       font-size: 20px;
+       
+   }
+   
+   a{
+       color:#E90303;
+       font-size: 16px;
+   }
+   
+   #icn{
+       font-size:30px; 
+       color:white;
+       text-decoration: none;
+       padding-left: 15px;
+       padding-right: 15px;   
+   }
+   ul{
+       margin:0px;
+       padding:0px;
+       list-style:none;
+       font-size:20px;
+       padding-left: 35%;
+     }
+     ul li{
+       margin:0px;
+       padding:0px;  
+       float:left;
+       width:140px;
+       height:60px;
+       font-size: 20px;
+       line-height: 60px;
+       /* background-color:black ; */
+   }
+   ul li a{
+       margin:0px;
+       padding:0px; 
+       text-decoration: none;
+       display: block;   
+       color:#E90303;
+       font-size: 105%;
+   
+   }
+   ul li a:hover{
+       margin:0px;
+       padding:0px; 
+       background-color:rgba(255, 255, 255, 0.788);
+       transition:1s all ease;
+   }
+   ul li ul li{
+       margin:0px;
+       padding:0px; 
+       display: none;
+       background-color:yellowgreen;
+       height: 60px;
+   }
+   ul li:hover ul li{
+       margin:0px;
+       padding:0px; 
+       display: block;
+   }
+   
+
+   /* @import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body {
+    background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+} */
+/* .container {
+    width: 100%;
+    
+} */
+.container{
+    margin-left: auto;
+    margin-right:auto;
+    width:1024px;
+    position: relative;
+    overflow: hidden;
+ }
+a {
+    text-decoration: none;
+}
+h1.main, p.demos {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.sp-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   
+    
+}
+.sp-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+.sp-container h2 {
+    position: absolute;
+    top: 50%;
+    line-height: 50px;
+    height: 90px;
+    margin-top: -50px;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-animation: blurFadeInOut 8s ease-in backwards;
+    -moz-animation: blurFadeInOut 8s ease-in backwards;
+    -ms-animation: blurFadeInOut 8s ease-in backwards;
+    animation: blurFadeInOut 8s ease-in backwards;
+}
+.sp-container h2.frame-1 {
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -ms-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.sp-container h2.frame-2 {
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay:  8s;;
+    -ms-animation-delay: 8s;
+    animation-delay:  8s;
+}
+.sp-container h2.frame-3 {
+    -webkit-animation-delay: 16s;
+    -moz-animation-delay: 16s;
+    -ms-animation-delay: 16s;
+    animation-delay: 16s;
+}
+.sp-container h2.frame-4 {
+    
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+.sp-container h2.frame-5 {
+    
+    -webkit-animation-delay: 32s;
+    -moz-animation-delay:  32s;
+    -ms-animation-delay:  32s;
+    animation-delay: 32s;
+}
+.sp-container h2.frame-6 {
+    
+    -webkit-animation-delay: 40s;
+    -moz-animation-delay: 40s;
+    -ms-animation-delay: 40s;
+    animation-delay: 40s;
+}
+.sp-container h2.frame-7 {
+    
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s;
+}
+.sp-container h2.frame-8 {
+    
+    -webkit-animation-delay: 56s;
+    -moz-animation-delay: 56s;
+    -ms-animation-delay: 56s;
+    animation-delay: 56s;
+}
+.sp-container h2.frame-9 {
+    
+    -webkit-animation-delay: 64s;
+    -moz-animation-delay:  64s;
+    -ms-animation-delay:  64s;
+    animation-delay:  64s;
+}
+.sp-container h2.frame-10 {
+    
+    -webkit-animation-delay: 72s;
+    -moz-animation-delay: 72s;;
+    -ms-animation-delay: 72s;
+    animation-delay: 72s;
+}
+.sp-container h2.frame-11 {
+    
+    -webkit-animation-delay: 81s;
+    -moz-animation-delay: 81s;
+    -ms-animation-delay: 81s;
+    animation-delay: 81s;
+}
+/* .sp-container h2.frame-5 {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+    color: transparent;
+    text-shadow: 0px 0px 1px #fff;
+}
+.sp-container h2.frame-5 span {
+    -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
+    -moz-animation: blurFadeIn 1s ease-in 12s backwards;
+    -ms-animation: blurFadeIn 3s ease-in 12s backwards;
+    animation: blurFadeIn 3s ease-in 12s backwards;
+    color: transparent;
+    text-shadow: 0px 0px 1px #fff;
+}
+.sp-container h2.frame-5 span:nth-child(2) {
+    -webkit-animation-delay: 13s;
+    -moz-animation-delay: 13s;
+    -ms-animation-delay: 13s;
+    animation-delay: 13s;
+}
+.sp-container h2.frame-5 span:nth-child(3) {
+    -webkit-animation-delay: 14s;
+    -moz-animation-delay: 14s;
+    -ms-animation-delay: 14s;
+    animation-delay: 14s;
+} */
+.sp-globe {
+    position: absolute;
+    width: 282px;
+    height: 273px;
+    left: 50%;
+    top: 50%;
+    margin: -137px 0 0 -141px;
+    background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left;
+    -webkit-animation: fadeInBack 16s linear 20s backwards;
+    -moz-animation: fadeInBack 16s linear 20s backwards;
+    -ms-animation: fadeInBack 16s linear 20s backwards;
+    animation: fadeInBack 16s linear 20s backwards;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -o-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
+}
+/* .sp-circle-link {
+    position: absolute;
+    left: 50%;
+    bottom: 100px;
+    margin-left: -50px;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    color: #3f1616;
+    font-size: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: fadeInRotate 1s linear 16s backwards;
+    -moz-animation: fadeInRotate 1s linear 16s backwards;
+    -ms-animation: fadeInRotate 1s linear 16s backwards;
+    animation: fadeInRotate 1s linear 16s backwards;
+    -webkit-transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+    -o-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+.sp-circle-link:hover {
+    background: #85373b;
+    color: #fff;
+} */
+
+
+@-webkit-keyframes blurFadeInOut {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        -webkit-transform: scale(1.3);
+    }
+    20%, 75% {
+        opacity: 1;
+        text-shadow: 0px 0px 1px #ff8a00;
+        -webkit-transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        text-shadow: 0px 0px 50px #ff8a00;
+        -webkit-transform: scale(0);
+    }
+}
+@-webkit-keyframes blurFadeIn {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        -webkit-transform: scale(1.3);
+    }
+    50% {
+        opacity: 0.5;
+        text-shadow: 0px 0px 10pxyellowgreen;
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0px 0px 1pxyellowgreen;
+        -webkit-transform: scale(1);
+    }
+}
+@-webkit-keyframes fadeInBack {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+    }
+    50% {
+        opacity: 0.4;
+        -webkit-transform: scale(2);
+    }
+    100% {
+        opacity: 0.2;
+        -webkit-transform: scale(5);
+    }
+}
+@-webkit-keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0) rotate(360deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1) rotate(0deg);
+    }
+}
+/**/
+
+@-moz-keyframes blurFadeInOut {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        -moz-transform: scale(1.3);
+    }
+    20%, 75% {
+        opacity: 1;
+        text-shadow: 0px 0px 1px #ff8a00;
+        -moz-transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        text-shadow: 0px 0px 50px #ff8a00;
+        -moz-transform: scale(0);
+    }
+}
+@-moz-keyframes blurFadeIn {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        -moz-transform: scale(1.3);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0px 0px 1px #ff8a00;
+        -moz-transform: scale(1);
+    }
+}
+@-moz-keyframes fadeInBack {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0);
+    }
+    50% {
+        opacity: 0.4;
+        -moz-transform: scale(2);
+    }
+    100% {
+        opacity: 0.2;
+        -moz-transform: scale(5);
+    }
+}
+@-moz-keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0) rotate(360deg);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1) rotate(0deg);
+    }
+}
+/**/
+
+@keyframes blurFadeInOut {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        transform: scale(1.3);
+    }
+    20%, 75% {
+        opacity: 1;
+        text-shadow: 0px 0px 1px #ff8a00;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        text-shadow: 0px 0px 50px #ff8a00;
+        transform: scale(0);
+    }
+}
+@keyframes blurFadeIn {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 40px #ff8a00;
+        transform: scale(1.3);
+    }
+    50% {
+        opacity: 0.5;
+        text-shadow: 0px 0px 10px #ff8a00;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        text-shadow: 0px 0px 1px #ff8a00;
+        transform: scale(1);
+    }
+}
+@keyframes fadeInBack {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    50% {
+        opacity: 0.4;
+        transform: scale(2);
+    }
+    100% {
+        opacity: 0.2;
+        transform: scale(5);
+    }
+}
+@keyframes fadeInRotate {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(360deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+}

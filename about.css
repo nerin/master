@@ -145,6 +145,8 @@ body{
      padding:2px ;
     box-shadow: 1px 1px 10px black;
      background-image: ulr('images/bb1.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
       animation: slider 15s infinite linear;
   }
   @keyframes slider{
@@ -153,7 +155,7 @@ body{
  
  }
  30%{
-     background-image: url('images/bb2.jpg');
+     background-image: url('images/z2.jpg');
  }
  /* 45%{
     background-image: url('images/ani4.jpg');
@@ -161,11 +163,11 @@ body{
 } */
 
  60%{
-     background-image: url('images/bb3.jpg');
+     background-image: url('images/z1.jpeg');
  
  }
  90%{
-    background-image: url('images/bb4.jpg');
+    background-image: url('images/z3.jpeg');
 
 }
   }
